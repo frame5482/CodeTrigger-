@@ -1,0 +1,209 @@
+
+html,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+* a {
+  text-decoration: none;
+}
+* li {
+  list-style: none;
+}
+.container {
+  min-height: 120vh;
+  padding-bottom: 300px;
+  margin: 0 auto;
+  position: relative;
+  
+}
+.videoYY
+{
+
+width: 1000px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border-radius: 25px;
+  cursor: pointer;
+  
+}
+.bg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.bg::after {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  filter: brightness(30%);
+  background-image: url("https://www.ungeek.ph/wp-content/uploads/2022/07/Blockman_GO-6.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.navBar {
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  height: 15vh;
+}
+.navBar ul {
+  display: flex;
+  align-items: center;
+}
+.navBar ul li {
+  padding: 0 25px;
+}
+.navBar ul li a {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+.logo a {
+content: "";
+top: 1%;
+left: 5;
+width:200px;
+height: 120px;
+position: absolute;
+z-index: 1;
+filter: brightness(100%);
+background-image: url("https://resource.blockmanmobile.com/web/BMGOfficialWebsite/Home/logo/Blockman%20GO%20Logo%2011.png");
+background-size: cover;
+background-position: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+ 
+}
+
+.BlockTextMini {
+  
+content: "";
+bottom: 20%;
+right: 10%;
+width:400px;
+height: 150px;
+position: absolute;
+z-index: 1;
+filter: brightness(170%);
+
+background-size: cover;
+background-position: center;
+color: #fff;
+}
+.BlockTextMini:hover {
+          bottom: 25%;
+      }
+
+.BlockTextDetail {
+  
+  content: "";
+  bottom: 20%;
+  right: 30%;
+  width:400px;
+  height: 150px;
+  position: absolute;
+  z-index: 1;
+  filter: brightness(170%);
+ 
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.BlockTextDetail:hover {
+          bottom: 25%;
+      }
+
+.TextTitle {
+  color: #fff;
+  padding: 25px;
+}
+.card {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  
+  
+}
+.card h2 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+.card .box1,
+.box2,
+.box3,
+.box4 {
+  width: 500px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border-radius: 25px;
+  cursor: pointer;
+}
+  .TextTitle h2 {
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+.text {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.txt h1 {
+  color: rgb(255, 255, 255);
+  font-size: 7rem;
+}
+.txt h2 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+}
+.TextTitle p {
+  opacity: 0.6;
+  font-size: 1.5rem;
+}
+.tnx h2 i {
+  color: #fd7e13;
+}
+.card div {
+  transition: 0.5s;
+}
+.card div:hover {
+  transition: 0.3s;
+  transform: translateY(-10px);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
+}
+
+.banner {
+      color: red;
+      background-color: #3499ff;
+      text-align: center;
+}
+
+ 
